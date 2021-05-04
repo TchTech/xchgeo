@@ -1,0 +1,66 @@
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+}
+
+select {
+  font-family: 'FontAwesome', 'Roboto';
+}
+
+@media (max-width: 577px) {
+  #select-data {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 300px) {
+  #url-input {
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #url-input {
+    width: 500px;
+    height: 50px;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  #heading {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  #heading {
+    padding: 5px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  #navbar-button-ground {
+    border: 2px solid black;
+  }
+}
+
+@media (min-width: 576px) {
+  #select-list-data {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+  }
+}
+
+.select-data {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid gray;
+}
+

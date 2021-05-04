@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Главная. XchronoGeo</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/logo-img.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md d-xl-flex" style="height: 100px;background-color: orange;">
+        <div class="container-fluid"><img class="d-flex justify-content-center" data-bs-hover-animate="tada" src="assets/img/logo-img.png" style="width: 100px;height: 100px;" alt="ГеоСкан"><button data-toggle="collapse" data-target="#nav-buttons" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="nav-buttons">
+                <ul class="nav navbar-nav" id="navbar-button-ground" style="background-color: orange;">
+                    <li class="nav-item" role="presentation"><a class="nav-link active nav-item" id="main-nav-button" href="index.html" style="font-size: 25px;color: white;padding: 20px;">Главная</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="help.html" style="font-size: 25px;padding: 20px;color: white;">Помощь</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+<link href="css/fontawesome/css/all.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script><h1 class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="border: 2px solid #ccc; font-size: 40px;margin: 10px;color: lightgreen;border-width: thin medium thick 10px;background-color: white"><span style="   background: -webkit-linear-gradient(left, #FFE000, #799F0C);
+    background: -o-linear-gradient(right, #FFE000, #799F0C);
+    background: -moz-linear-gradient(right, #FFE000, #799F0C);
+    background: linear-gradient(to right, #FFE000 , #799F0C); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">X c h r o n o  g e o</span></h1>
+        <h1 class="d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" id="heading">Вставьте ссылку на&nbsp;<a href="https://www.gismeteo.ru/diary/">дневник</a></h1>
+        <form method="post" action="search.php" class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center"><input class="border rounded-0 border-dark shadow form-control d-md-flex d-xl-flex justify-content-md-center justify-content-xl-center" type="url" id="url-input" style="background-color: white;" autocomplete="on" inputmode="url" name="url" placeholder="https://www.gismeteo.ru/diary/"
+                required=""><select id="select-data" class="select-data" name="data-parameter">
+  <option>&#xf02d; Вся информация</option>
+  <option>&#xf2c9; Температура</option>
+  <option>&#xf14e; Ветер</option>
+  <option>&#xf0e4; Давление</option>
+  <option>&#xf0e7; Погода</option>
+  <option>&#xf0c2; Облачность</option>
+</select><button class="btn btn-primary text-capitalize border rounded-0" type="submit" style="margin-left: 10px;height: 50px;"><strong>Получить</strong></button></form>
+    </main>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="margin-top: 15px;">
+    <button type="button" class="btn btn-info infoPopover" data-toggle="popover" data-placement="bottom" title="Краткое описание." data-html="true" data-content="1. Перейдите по ссылке <a href='https://www.gismeteo.ru/diary/'>https://www.gismeteo.ru/diary/</a>. <br>2. Выберите ваш регион и желаемую дату, нажмите Получить дневник. <br>3. Скопируйте получившуюся ссылку и вставьте в текстовое поле на этом сайте. <br>4. Выберите подходящие для вас параметры в падающем окне списка.<br>5. Нажмите кнопку Получить." style="background-image: url(assets/img/baseline_info_black_48.png); background-color: #eee; background-size: cover; width: 45px;height: 45px;" ></button>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script>
+   $(function(){
+      $(".infoPopover").popover();
+   });
+</script>
+    <hr>
+    <div class="features-boxed" style="margin-top: 50px;margin-right: 20px;margin-left: 20px;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="font-size: 35px;">Преимущества</h2>
+                <p class="text-center">Вам следует выбрать нас из-за:</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">money_off</i>
+                        <h3 class="name">Бесплатность</h3>
+                        <p class="description">Для использования сайта вам не понадобятся подписки или иные интернет покупки.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">update</i>
+                        <h3 class="name">Обновления</h3>
+                        <p class="description">Автор проекта регулярно обновляет и поддерживает портал, улучшая удобство в работе с сайтом.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">format_list_numbered</i>
+                        <h3 class="name">Информативность</h3>
+                        <p class="description">Данные из сайта "Gismeteo. Дневник погоды" структурируются для наглядного представления.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">phonelink</i>
+                        <h3 class="name">Интерфейс</h3>
+                        <p class="description">Сайт сделан при помощи Bootstrap для более&nbsp;комфортного и<br>кроссплатформенного использования.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">local_library</i>
+                        <h3 class="name">Помощь в учебе</h3>
+                        <p class="description">Построение розы ветров или выделение амплитуды чего-либо за секунды помогут в учебе.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="material-icons icon">stars</i>
+                        <h3 class="name">Уникальность</h3>
+                        <p class="description">Похожих порталов на просторе интернета вы ещё не видели! Предлагаем вам попробовать!</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Главная</a></li>
+                <li class="list-inline-item"><a href="help.html">Помощь</a></li>
+                <li class="list-inline-item"><a href="#">О нас</a></li>
+            </ul>
+            <p class="copyright">Xchronos © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/charting.js"></script>
+    <script src="assets/js/texting.js"></script>
+</body>
+
+</html>
