@@ -35,8 +35,8 @@
 
 1.  **Клонируйте Репозиторий:**
     ```bash
-    git clone https://github.com/your-username/XchronoGeo.git
-    cd XchronoGeo
+    git clone https://github.com/TchTech/xchgeo.git
+    cd xchgeo
     ```
 2.  **Настройте PHP Окружение:** Убедитесь, что у вас установлено и правильно настроено PHP окружение (например, XAMPP, MAMP, Docker). Минимальная версия PHP - [Укажите минимальную версию PHP].
 3.  **Настройте Сбор Данных:**
