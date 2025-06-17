@@ -3,11 +3,11 @@
 [![Статус Проекта: Активный](https://img.shields.io/badge/статус-активный-brightgreen)]
 [![Лицензия: MIT](https://img.shields.io/badge/лицензия-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Открытые Задачи](https://img.shields.io/github/issues/TchTech/xchgeo)]
-[![Звезды GitHub](https://img.shields.io/github/stars/your-username/XchronoGeo?style=social)]([https://github.com/your-username/XchronoGeo/stargazers](https://github.com/TchTech/xchgeo))
+[![Звезды GitHub](https://img.shields.io/github/stars/TchTech/xchgeo?style=social)]([https://github.com/TchTech/xchgeo](https://github.com/TchTech/xchgeo))
 
 **XchronoGeo преобразует исторические данные о погоде с сайта Gismeteo в интерактивные и информативные визуализации. Ваш мощный инструмент для анализа климата, изучения географических закономерностей погоды и проведения научных исследований!**
 <div style="width: 100%">
-<img src="https://xchronogeo.rf.gd/assets/img/logo-img.png" style="  display: block;  margin-left: 50%;  margin-right: 50%" width=250 alt="Main Page Image">
+<img src="https://xchronogeo.rf.gd/assets/img/logo-img.png" style="  display: block;  margin-left: 50%;  margin-right: 50%" width=250 alt="Icon">
 </div>
 
 ## 🚀 Откройте Погоду По-Новому
